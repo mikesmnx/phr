@@ -10,7 +10,7 @@ import {
 } from '../../modules/counter'
 
 const Home = props => (
-  <div>
+  <div className="container">
     <h1>Home</h1>
     <p>Count: {props.count}</p>
 
@@ -25,6 +25,15 @@ const Home = props => (
     </p>
 
     <p><button onClick={() => props.changePage()}>Go to about page via redux</button></p>
+
+        <div className="row">
+          <div className="card">
+            <div className="card-body">
+              <h3 className="card-title">affg</h3>
+              <p className="card-text">1234</p>
+            </div>
+          </div>
+        </div>
   </div>
 )
 
